@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 20px 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 20px;
+}
+
+.logo-starbucks img {
+  height: 80px;
+}
+
+.header-list {
+  display: flex;
+  gap: 25px;
+
+  list-style: none;
+  letter-spacing: 0.15em;
+}
+
+.header-links {
+  color: black;
+  text-decoration: none;
+}
+
+.header-links:hover {
+  color: #017143;
+  text-decoration: underline;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 30px;
+  height: 500px;
+}
+
+.container-content {
+  width: 600px;
+  padding: 10px;
+
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.container-content h1 {
+  font-weight: 500;
+  color: #333333;
+  font-size: 64px;
+  line-height: 1.5em;
+}
+
+.starbucks-hero {
+  color: #017143;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.main-link-learn-more {
+  color: white;
+  background-color: #017143;
+
+  border: 2px solid #017143;
+  border-radius: 30px;
+
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-align: center;
+
+  margin-top: 20px;
+  padding: 8px 20px;
+  width: 170px;
+  display: inline-block;
+}
+
+.main-link-learn-more:hover {
+  transition: 0.4s;
+  letter-spacing: 2px;
+}
+
+.tea-logo img {
+  position: absolute;
+  height: 520px;
+  top: 160px;
+  right: 200px;
+
+  transition: 0.4s;
+  transform: translateY(0px);
+}
+
+.tea-logo img:hover {
+  transform: translateY(-10px);
+}
+
+.main-end-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  height: 60px;
+  left: 30px;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.main-end-thumb li img {
+  list-style: none;
+  height: 140px;
+  transition: 0.4s;
+  transform: translateY(0px);
+}
+
+.main-end-thumb li img:hover {
+  transform: translateY(-10px);
+}
+
+.waning-moon-017143 {
+  background: #017143;
+  position: absolute;
+
+  width: 100%;
+  height: 104%;
+  top: 0%;
+  left: 0%;
+
+  clip-path: circle(620px at right 800px);
+  z-index: -1;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+}
+
+.footer-row {
+  margin-top: 80px;
+  font-size: 14px;
+  color: grey;
+}
+
+.footer-row a {
+  color: grey;
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer-row a:hover {
+  color: black;
+}
+
+.footer-row h2 {
+  color: #017143;
+}
+
+.hr-linha {
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.social-media-icons img {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+}
+
+.social-media-icons img:hover {
+  transform: scale(1.2);
+}
+.footer-copyright {
+  color: rgba(0, 0, 0, 0.56);
+  padding: 1.6rem;
+}
