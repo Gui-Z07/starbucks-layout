@@ -7,10 +7,10 @@
 
   header {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
 
   .logo-starbucks img {
@@ -21,7 +21,7 @@
   .header-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 14px;
 
     list-style: none;
