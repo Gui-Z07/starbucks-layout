@@ -102,7 +102,6 @@ header {
   top: 160px;
   right: 200px;
   margin-top: 20px;
-  
   transition: 0.4s;
   transform: translateY(0px);
 }
@@ -183,7 +182,7 @@ header {
   margin: 20px auto;
 }
 
-.social-media-icons img {
+.social-media-icons a img {
   display: inline-block;
   padding: 10px;
   margin: 10px;
@@ -194,6 +193,7 @@ header {
 .social-media-icons img:hover {
   transform: scale(1.2);
 }
+
 .footer-copyright {
   color: rgba(0, 0, 0, 0.56);
   margin-top: 20px;

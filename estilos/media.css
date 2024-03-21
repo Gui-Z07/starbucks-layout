@@ -10,7 +10,11 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+  }
+
+  .contact{
+    display: none;
   }
 
   .logo-starbucks img {
@@ -100,3 +104,15 @@
     color: grey;
   }
 }
+
+.social-media-icons img {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    
+  }
+
+  .social-media-icons img:hover {
+    transform: scale(1.2);
+  }
